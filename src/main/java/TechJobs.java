@@ -124,7 +124,7 @@ public class TechJobs {
     System.out.println("No Results");
        }
 
-        for (int i = 0; i < someJobs.size(); i ++) {
+//        for (int i = 0; i < someJobs.size(); i ++) {
             for (HashMap record : someJobs) {
                 System.out.println("*****\n" +
                     "position type: " + record.get("position type")+ "\n" +
@@ -134,7 +134,7 @@ public class TechJobs {
                     "core competency: " + record.get("core competency") + "\n" +
                     "*****\n");
             }
-            }
+//            }
         }
     }
 
